@@ -1,0 +1,11 @@
+Common Patterns : 
+
+1. Use hashset / hashmap
+2. Use extra node and point every node to it
+3. Modify node structure : 
+    Node {
+        data,
+        next,
+        visited
+    }
+4. Two pointer technique
