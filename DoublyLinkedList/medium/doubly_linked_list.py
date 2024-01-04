@@ -114,6 +114,17 @@ class DoublyLinkedList:
             current = current.next
             position += 1
         print(f"{key} not found in the list")
+    
+    def get_node_at_index(self, index):
+        if not self.head:
+            return None
+
+        current = self.head
+        while current and index:
+            current = current.next
+            index -= 1
+
+        return current
 
     def update_node_value(self, old_value, new_value):
         current = self.head
