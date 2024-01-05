@@ -1,0 +1,80 @@
+-------------------------------------
+# Terms in Tree data structure:
+-------------------------------------
+- root node
+- parent node & child node
+- leaf node / external node & internal node
+- ancestor & descendent of a node
+- sibling of a node 
+- neighbour of a node
+- level of a node
+- subtree
+
+
+-------------------------------------
+# Types of Tree data structure:
+-------------------------------------
+1. Binary Tree:
+    a. Full Binary Tree
+    b. Complete Binary Tree
+    c. Perfetch Binary Tree
+    d. Degenerate (or pathological) Tree
+2. Ternary Tree:
+3. N-ary Tree:
+    a. 2-3 Tree
+    b. Trie (Radix Tree or Prefix Tree)
+    c. B-Tree
+    d. K-ary Tree
+
+4. Other:
+    a. Red-Black Tree
+    b. AVL Tree
+    c. QuadTree & OctTree
+    d. Suffix Tree
+    e. Head
+
+
+-------------------------------------
+# Basic Operations on Tree data structure:
+-------------------------------------
+- create
+- insert
+- search
+- Traversal:
+    -> pre-order Traversal
+    -> in-order Traversal
+    -> post-order Traversal
+
+
+-------------------------------------
+# Properties of Tree data structure:
+-------------------------------------
+1. Number of edges
+2. Depth of a node
+3. Height of a node
+4. Height of the tree
+5. Degree of a node
+
+
+-------------------------------------
+# Applications of Tree :
+-------------------------------------
+- File System: This allows for efficient navigation and organization of files.
+- Database Indexing: B-trees and other tree structures are used in database indexing to efficiently search for and retrieve data. 
+- compiler design: In compiler design, a syntax tree is used to represent the structure of a program. 
+
+
+-------------------------------------
+# Advantages of Tree Data Structure:
+-------------------------------------
+- Tree offer Efficient Searching Depending on the type of tree, with average search times of O(log n) for balanced trees like AVL. 
+- Trees provide a hierarchical representation of data, making it easy to organize and navigate large amounts of information.
+- The recursive nature of trees makes them easy to traverse and manipulate using recursive algorithms.
+
+
+-------------------------------------
+# Disadvantages of Tree Data Structure:
+-------------------------------------
+- Unbalanced Trees, meaning that the height of the tree is skewed towards one side, which can lead to inefficient search times.
+- Trees demand more memory space requirements than some other data structures like arrays and linked lists, especially if the tree is very large.
+- The implementation and manipulation of trees can be complex and require a good understanding of the algorithms.
