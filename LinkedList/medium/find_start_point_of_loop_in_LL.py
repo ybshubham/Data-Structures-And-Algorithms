@@ -33,3 +33,5 @@ ll.head.next.next.next.next.next = ll.head.next
 # Find the start of the cycle
 start_of_cycle = find_cycle_start(ll.head)
 print(start_of_cycle.data)
+
+# Hint: When collision point is found then start point of the loop is at the same distance from collision point and the head.
